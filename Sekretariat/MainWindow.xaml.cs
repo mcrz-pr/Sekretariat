@@ -12,6 +12,8 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.IO;
+using Microsoft.Win32;
 
 namespace Sekretariat
 {
@@ -24,10 +26,11 @@ namespace Sekretariat
         {
             InitializeComponent();
         }
-
-        private void unselected(object sender, RoutedEventArgs e)
+        private void btnOpenFile_Click(object sender, RoutedEventArgs e)
         {
-
+            OpenFileDialog openFileDialog = new OpenFileDialog();
+            if (openFileDialog.ShowDialog() == true)
+                Image.Value = File.ReadAllText(openFileDialog.FileName);//zmienić na wrzucenie zdjęcia
         }
     }
 }

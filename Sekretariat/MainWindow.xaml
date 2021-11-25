@@ -16,7 +16,7 @@
                     <TextBox HorizontalAlignment="Left" Margin="102,86,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Height="29"/>
                     <Label Content="Drugie imię" HorizontalAlignment="Left" Margin="10,57,0,0" VerticalAlignment="Top" Foreground="White" Height="29" Width="92" FontSize="16" HorizontalContentAlignment="Center"/>
                     <TextBox HorizontalAlignment="Left" Margin="102,57,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Height="29"/>
-                    <ComboBox x:Name="combo" HorizontalAlignment="Left" Margin="497,20,0,0" VerticalAlignment="Top" Width="120" Unselected="unselected">
+                    <ComboBox x:Name="combo" HorizontalAlignment="Left" Margin="497,20,0,0" VerticalAlignment="Top" Width="120">
                         <ComboBoxItem>Uczeń</ComboBoxItem>
                         <ComboBoxItem>Nauczyciel</ComboBoxItem>
                         <ComboBoxItem>Pracownik</ComboBoxItem>
@@ -27,7 +27,12 @@
                     <Label Content="Imię matki" HorizontalAlignment="Left" Margin="84,278,0,0" VerticalAlignment="Top" Foreground="White" Height="29" Width="98" FontSize="16" HorizontalContentAlignment="Center"/>
                     <TextBox HorizontalAlignment="Left" Margin="182,278,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Height="29"/>
                     <TextBox HorizontalAlignment="Left" Margin="182,249,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Height="29"/>
-
+                    <Label Content="Data urodzenia" HorizontalAlignment="Left" Margin="84,348,0,0" VerticalAlignment="Top" Foreground="White" Height="29" Width="124" FontSize="16" HorizontalContentAlignment="Center"/>
+                    <DatePicker HorizontalAlignment="Left" Margin="208,353,0,0" VerticalAlignment="Top" Width="120"/>
+                    <Label Content="PESEL" HorizontalAlignment="Left" Margin="84,382,0,0" VerticalAlignment="Top" Foreground="White" Height="29" Width="124" FontSize="16" HorizontalContentAlignment="Center"/>
+                    <TextBox HorizontalAlignment="Left" Margin="208,382,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Height="29"/>
+                    <Image HorizontalAlignment="Left" Height="129" Margin="557,86,0,0" VerticalAlignment="Top" Width="145"/>
+                    <Button Name="btnOpenFile" Click="btnOpenFile_Click" Margin="557,227,288,278" FontSize="16">Wstaw zdjęcie</Button>
                 </Grid>
             </TabItem>
             <TabItem Header="Edytowanie">
