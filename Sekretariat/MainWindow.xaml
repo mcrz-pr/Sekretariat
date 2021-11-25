@@ -12,8 +12,21 @@
                 <Grid Background="#0d1117">
                     <Label Content="Imię" HorizontalAlignment="Left" Margin="10,27,0,0" VerticalAlignment="Top" Foreground="White" Height="29" Width="92" FontSize="16" HorizontalContentAlignment="Center"/>
                     <TextBox HorizontalAlignment="Left" Margin="102,28,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Height="29"/>
-                    <Label Content="Nazwisko" HorizontalAlignment="Left" Margin="10,57,0,0" VerticalAlignment="Top" Foreground="White" Height="29" Width="92" FontSize="16" HorizontalContentAlignment="Center"/>
+                    <Label Content="Nazwisko" HorizontalAlignment="Left" Margin="10,86,0,0" VerticalAlignment="Top" Foreground="White" Height="29" Width="92" FontSize="16" HorizontalContentAlignment="Center"/>
+                    <TextBox HorizontalAlignment="Left" Margin="102,86,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Height="29"/>
+                    <Label Content="Drugie imię" HorizontalAlignment="Left" Margin="10,57,0,0" VerticalAlignment="Top" Foreground="White" Height="29" Width="92" FontSize="16" HorizontalContentAlignment="Center"/>
                     <TextBox HorizontalAlignment="Left" Margin="102,57,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Height="29"/>
+                    <ComboBox x:Name="combo" HorizontalAlignment="Left" Margin="497,20,0,0" VerticalAlignment="Top" Width="120" Unselected="unselected">
+                        <ComboBoxItem>Uczeń</ComboBoxItem>
+                        <ComboBoxItem>Nauczyciel</ComboBoxItem>
+                        <ComboBoxItem>Pracownik</ComboBoxItem>
+                    </ComboBox>
+                    <Label Content="Nazwisko panieńskie" HorizontalAlignment="Left" Margin="10,115,0,0" VerticalAlignment="Top" Foreground="White" Height="29" Width="155" FontSize="16" HorizontalContentAlignment="Center"/>
+                    <TextBox HorizontalAlignment="Left" Margin="162,115,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Height="29"/>
+                    <Label Content="Imię ojca" HorizontalAlignment="Left" Margin="84,249,0,0" VerticalAlignment="Top" Foreground="White" Height="29" Width="98" FontSize="16" HorizontalContentAlignment="Center"/>
+                    <Label Content="Imię matki" HorizontalAlignment="Left" Margin="84,278,0,0" VerticalAlignment="Top" Foreground="White" Height="29" Width="98" FontSize="16" HorizontalContentAlignment="Center"/>
+                    <TextBox HorizontalAlignment="Left" Margin="182,278,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Height="29"/>
+                    <TextBox HorizontalAlignment="Left" Margin="182,249,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Height="29"/>
 
                 </Grid>
             </TabItem>

@@ -24,5 +24,10 @@ namespace Sekretariat
         {
             InitializeComponent();
         }
+
+        private void unselected(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
