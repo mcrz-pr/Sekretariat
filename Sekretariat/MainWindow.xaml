@@ -5,8 +5,26 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Sekretariat"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="600" Width="1000" Background="#0d1117">
     <Grid>
+        <TabControl>
+            <TabItem Header="Wprowadzanie">
+                <Grid Background="#0d1117">
+                    <Label Content="Imię" HorizontalAlignment="Left" Margin="10,27,0,0" VerticalAlignment="Top" Foreground="White" Height="29" Width="92" FontSize="16" HorizontalContentAlignment="Center"/>
+                    <TextBox HorizontalAlignment="Left" Margin="102,28,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Height="29"/>
+                    <Label Content="Nazwisko" HorizontalAlignment="Left" Margin="10,57,0,0" VerticalAlignment="Top" Foreground="White" Height="29" Width="92" FontSize="16" HorizontalContentAlignment="Center"/>
+                    <TextBox HorizontalAlignment="Left" Margin="102,57,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Height="29"/>
+
+                </Grid>
+            </TabItem>
+            <TabItem Header="Edytowanie">
+                <Grid Background="#0d1117"/>
+            </TabItem>
+            <TabItem Header="Wyszukiwanie">
+                <Grid Background="#0d1117"/>
+            </TabItem>
+        </TabControl>
+
 
     </Grid>
 </Window>
