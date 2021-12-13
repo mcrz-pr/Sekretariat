@@ -16,7 +16,7 @@
                     <TextBox HorizontalAlignment="Left" Margin="102,86,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Height="29"/>
                     <Label Content="Drugie imię" HorizontalAlignment="Left" Margin="10,57,0,0" VerticalAlignment="Top" Foreground="White" Height="29" Width="92" FontSize="16" HorizontalContentAlignment="Center"/>
                     <TextBox HorizontalAlignment="Left" Margin="102,57,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Height="29"/>
-                    <ComboBox x:Name="combo" HorizontalAlignment="Left" Margin="497,20,0,0" VerticalAlignment="Top" Width="120">
+                    <ComboBox x:Name="typ" HorizontalAlignment="Left" Margin="497,20,0,0" VerticalAlignment="Top" Width="120">
                         <ComboBoxItem>Uczeń</ComboBoxItem>
                         <ComboBoxItem>Nauczyciel</ComboBoxItem>
                         <ComboBoxItem>Pracownik</ComboBoxItem>
@@ -33,6 +33,24 @@
                     <TextBox HorizontalAlignment="Left" Margin="208,382,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Height="29"/>
                     <Image HorizontalAlignment="Left" Height="129" Margin="557,86,0,0" VerticalAlignment="Top" Width="145"/>
                     <Button Name="btnOpenFile" Click="btnOpenFile_Click" Margin="557,227,288,278" FontSize="16">Wstaw zdjęcie</Button>
+                    <Label Content="Płeć:" HorizontalAlignment="Left" Margin="854,20,0,0" VerticalAlignment="Top" Foreground="White" Height="29" Width="124" FontSize="16" HorizontalContentAlignment="Center"/>
+                    <RadioButton GroupName="plec" Foreground="White"  Content="Kobieta" HorizontalAlignment="Left" Margin="854,60,0,0" VerticalAlignment="Top"/>
+                    <RadioButton GroupName="plec" Foreground="White" Content="Mężczyzna" HorizontalAlignment="Left" Margin="854,86,0,0" VerticalAlignment="Top"/>
+                    <Label Content="Klasa:" HorizontalAlignment="Left" Margin="725,348,0,0" VerticalAlignment="Top" Foreground="White" Height="29" Width="120" FontSize="16" HorizontalContentAlignment="Center"/>
+                    <ComboBox x:Name="klasa" HorizontalAlignment="Left" Margin="725,389,0,0" VerticalAlignment="Top" Width="120">
+                        <ComboBoxItem>1A</ComboBoxItem>
+                        <ComboBoxItem>1B</ComboBoxItem>
+                        <ComboBoxItem>1C</ComboBoxItem>
+                        <ComboBoxItem>1D</ComboBoxItem>
+                        <ComboBoxItem>2A</ComboBoxItem>
+                        <ComboBoxItem>2B</ComboBoxItem>
+                        <ComboBoxItem>2C</ComboBoxItem>
+                        <ComboBoxItem>2D</ComboBoxItem>
+                        <ComboBoxItem>3A</ComboBoxItem>
+                        <ComboBoxItem>3B</ComboBoxItem>
+                        <ComboBoxItem>3C</ComboBoxItem>
+                        <ComboBoxItem>3D</ComboBoxItem>
+                    </ComboBox>
                 </Grid>
             </TabItem>
             <TabItem Header="Edytowanie">
