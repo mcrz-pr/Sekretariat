@@ -16,28 +16,43 @@
                     <TextBox HorizontalAlignment="Left" Margin="102,86,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Height="29"/>
                     <Label Content="Drugie imię" HorizontalAlignment="Left" Margin="10,57,0,0" VerticalAlignment="Top" Foreground="White" Height="29" Width="92" FontSize="16" HorizontalContentAlignment="Center"/>
                     <TextBox HorizontalAlignment="Left" Margin="102,57,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Height="29"/>
-                    <Label Content="Typ danych:" HorizontalAlignment="Left" Margin="497,42,0,0" VerticalAlignment="Top" Foreground="White" Height="29" Width="120" FontSize="16" HorizontalContentAlignment="Center"/>
-                    <ComboBox x:Name="typ" HorizontalAlignment="Left" Margin="497,82,0,0" VerticalAlignment="Top" Width="120">
+                    <Label Content="Typ danych:" HorizontalAlignment="Left" Margin="690,27,0,0" VerticalAlignment="Top" Foreground="White" Height="29" Width="120" FontSize="16" HorizontalContentAlignment="Center"/>
+                    <ComboBox x:Name="typ" HorizontalAlignment="Left" Margin="690,61,0,0" VerticalAlignment="Top" Width="120">
                         <ComboBoxItem>Uczeń</ComboBoxItem>
                         <ComboBoxItem>Nauczyciel</ComboBoxItem>
                         <ComboBoxItem>Pracownik</ComboBoxItem>
                     </ComboBox>
                     <Label Content="Nazwisko panieńskie" HorizontalAlignment="Left" Margin="10,115,0,0" VerticalAlignment="Top" Foreground="White" Height="29" Width="155" FontSize="16" HorizontalContentAlignment="Center"/>
                     <TextBox HorizontalAlignment="Left" Margin="162,115,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Height="29"/>
-                    <Label Content="Imię ojca" HorizontalAlignment="Left" Margin="84,249,0,0" VerticalAlignment="Top" Foreground="White" Height="29" Width="98" FontSize="16" HorizontalContentAlignment="Center"/>
-                    <Label Content="Imię matki" HorizontalAlignment="Left" Margin="84,278,0,0" VerticalAlignment="Top" Foreground="White" Height="29" Width="98" FontSize="16" HorizontalContentAlignment="Center"/>
-                    <TextBox HorizontalAlignment="Left" Margin="182,278,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Height="29"/>
-                    <TextBox HorizontalAlignment="Left" Margin="182,249,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Height="29"/>
+                    <Label Content="Imię ojca" HorizontalAlignment="Left" Margin="7,244,0,0" VerticalAlignment="Top" Foreground="White" Height="29" Width="98" FontSize="16" HorizontalContentAlignment="Center"/>
+                    <Label Content="Imię matki" HorizontalAlignment="Left" Margin="10,278,0,0" VerticalAlignment="Top" Foreground="White" Height="29" Width="98" FontSize="16" HorizontalContentAlignment="Center"/>
+                    <TextBox HorizontalAlignment="Left" Margin="102,278,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Height="29"/>
+                    <TextBox HorizontalAlignment="Left" Margin="102,244,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Height="29"/>
                     <Label Content="Data urodzenia" HorizontalAlignment="Left" Margin="84,348,0,0" VerticalAlignment="Top" Foreground="White" Height="29" Width="124" FontSize="16" HorizontalContentAlignment="Center"/>
                     <DatePicker HorizontalAlignment="Left" Margin="208,353,0,0" VerticalAlignment="Top" Width="120"/>
                     <Label Content="PESEL" HorizontalAlignment="Left" Margin="84,382,0,0" VerticalAlignment="Top" Foreground="White" Height="29" Width="124" FontSize="16" HorizontalContentAlignment="Center"/>
                     <TextBox HorizontalAlignment="Left" Margin="208,382,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Height="29"/>
-                    <Button Name="btnOpenFile" Click="btnOpenFile_Click" Margin="557,227,288,278" FontSize="16">Wstaw zdjęcie</Button>
+                    <Button Name="btnOpenFile" Click="btnOpenFile_Click" Margin="435,35,410,470" FontSize="16">Wstaw zdjęcie</Button>
                     <Label Content="Płeć:" HorizontalAlignment="Left" Margin="854,20,0,0" VerticalAlignment="Top" Foreground="White" Height="29" Width="124" FontSize="16" HorizontalContentAlignment="Center"/>
                     <RadioButton GroupName="plec" Foreground="White"  Content="Kobieta" HorizontalAlignment="Left" Margin="854,60,0,0" VerticalAlignment="Top"/>
                     <RadioButton GroupName="plec" Foreground="White" Content="Mężczyzna" HorizontalAlignment="Left" Margin="854,86,0,0" VerticalAlignment="Top"/>
-                    <Label Content="Klasa:" HorizontalAlignment="Left" Margin="725,343,0,0" VerticalAlignment="Top" Foreground="White" Height="29" Width="120" FontSize="16" HorizontalContentAlignment="Center"/>
-                    <ComboBox x:Name="klasa" HorizontalAlignment="Left" Margin="725,389,0,0" VerticalAlignment="Top" Width="120">
+                    <Label Content="Klasa:" HorizontalAlignment="Left" Margin="750,343,0,0" VerticalAlignment="Top" Foreground="White" Height="29" Width="120" FontSize="16" HorizontalContentAlignment="Center"/>
+                    <Label Content="Wychowawstwo nad klasą:" HorizontalAlignment="Left" Margin="707,205,0,0" VerticalAlignment="Top" Foreground="White" Height="29" Width="206" FontSize="16" HorizontalContentAlignment="Center"/>
+                    <ComboBox x:Name="klasa" HorizontalAlignment="Left" Margin="750,386,0,0" VerticalAlignment="Top" Width="120">
+                        <ComboBoxItem>1A</ComboBoxItem>
+                        <ComboBoxItem>1B</ComboBoxItem>
+                        <ComboBoxItem>1C</ComboBoxItem>
+                        <ComboBoxItem>1D</ComboBoxItem>
+                        <ComboBoxItem>2A</ComboBoxItem>
+                        <ComboBoxItem>2B</ComboBoxItem>
+                        <ComboBoxItem>2C</ComboBoxItem>
+                        <ComboBoxItem>2D</ComboBoxItem>
+                        <ComboBoxItem>3A</ComboBoxItem>
+                        <ComboBoxItem>3B</ComboBoxItem>
+                        <ComboBoxItem>3C</ComboBoxItem>
+                        <ComboBoxItem>3D</ComboBoxItem>
+                    </ComboBox>
+                    <ComboBox x:Name="wychklasa" HorizontalAlignment="Left" Margin="750,243,0,0" VerticalAlignment="Top" Width="120">
                         <ComboBoxItem>1A</ComboBoxItem>
                         <ComboBoxItem>1B</ComboBoxItem>
                         <ComboBoxItem>1C</ComboBoxItem>
