@@ -26,10 +26,10 @@ namespace Sekretariat
         {
             InitializeComponent();
         }
-        private void btnOpenFile_Click(object sender, RoutedEventArgs e)
+
+        private void selected(object sender, RoutedEventArgs e)
         {
-            OpenFileDialog openFileDialog = new OpenFileDialog();
-           
+            
         }
     }
 }
