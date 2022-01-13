@@ -29,8 +29,7 @@ namespace Sekretariat
         private void btnOpenFile_Click(object sender, RoutedEventArgs e)
         {
             OpenFileDialog openFileDialog = new OpenFileDialog();
-            if (openFileDialog.ShowDialog() == true)
-                Image.Value = File.ReadAllText(openFileDialog.FileName);//zmienić na wrzucenie zdjęcia
+           
         }
     }
 }
